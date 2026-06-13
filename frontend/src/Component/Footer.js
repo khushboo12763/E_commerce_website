@@ -1,4 +1,5 @@
 import React from "react";
+import "./Style/Footer.css";
 
 function Footer(){
     return(<>
@@ -29,21 +30,9 @@ function Footer(){
         <p>App Market</p>
       </div>
 
-      <div className="column">
-        <h3>Support</h3>
-        <p>Help Center</p>
-        <p>Hire a Professional</p>
-        <p>Report Abuse</p>
-        <p>System Status</p>
-      </div>
+      
 
-      <div className="column">
-        <h3>Company</h3>
-        <p>Press & Media</p>
-        <p>Investor Relations</p>
-        <p>Careers</p>
-        <p>Sitemap</p>
-      </div>
+      
 
 
     </div>

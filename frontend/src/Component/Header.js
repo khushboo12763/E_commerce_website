@@ -4,18 +4,20 @@ import { CiSearch } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
 import { IoLogIn } from "react-icons/io5"; 
 import { FaCartArrowDown } from "react-icons/fa";
-import Home from "./Home";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div className="head">
+        <Link to="/" className="navbar">Home</Link>
+        <Link to="/women" className="navbar">WOMEN</Link>
         <p className="navbar">MEN</p>
-        <p className="navbar">WOMEN</p>
         <p className="navbar">KIDS</p>
-        <p className="navbar">HOME</p>
         <p className="navbar">BEAUTY</p>
         <p className="navbar">GENZ</p>
+        
+        
 
         <div className="search-box">
           <CiSearch className="search-icon" />

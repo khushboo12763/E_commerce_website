@@ -1,9 +1,10 @@
 .footer{
-    background-color: #222f3d;
+    background-color: #111827;
     color: white;
-    height: 300px;
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 20px;
 }
 
 .column{
@@ -23,6 +24,3 @@
     font-size: 16px;
 }
 
-.column p:hover{
-    color: #ff3f6c;
-}

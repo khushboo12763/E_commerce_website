@@ -18,6 +18,7 @@ function Women() {
     <>
       <Header />
 
+       <h1>woman collection</h1>
       <div className="products">
         <div className="card">
           <img src={Cloth1} alt="Cloth 1" />

@@ -1,8 +1,10 @@
 import{BrowserRouter,Routes,Route} from "react-router-dom";
+import Login from "./Component/Login";
+import Signup from "./Component/Signup";
 import Home from "./Component/Home";
 import Women from "./Component/Women";
 import Shoes from "./Component/shoes";
-import Skincare from "./Component/skincare";
+import Skincare from "./Component/makeup";
 import Beauty from "./Component/beauty";
 
 
@@ -17,6 +19,8 @@ function App(){
      <Route path="/shoes" element={<Shoes/>}></Route>
      <Route path="/skincare" element={<Skincare/>}></Route>
      <Route path="/Beauty" element={<Beauty/>}></Route>
+     <Route path="/login" element={<Login />} />
+    <Route path="/signup" element={<Signup />} />
     </Routes> 
     </BrowserRouter> 
     </>)

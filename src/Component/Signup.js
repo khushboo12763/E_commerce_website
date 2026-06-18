@@ -8,7 +8,7 @@ function Signup(){
 
     <h1 className="heading">Signup</h1>
     <input type="text" placeholder="Full Name" className="input"></input><br/>
-    <input type="texr" placeholder="Contact no." className="input"></input><br/>
+    <input type="text" placeholder="Contact no." className="input"></input><br/>
     <input type="text"placeholder="E-mail" className="input"></input><br/>
     <input type="text" placeholder="password"  className="input"></input><br/>
     <input type="text" placeholder="confirm password"  className="input"></input><br/>

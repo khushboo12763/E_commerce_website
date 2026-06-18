@@ -13,16 +13,23 @@ function Header() {
         <Link to="/" className="navbar">Home</Link>
         <Link to="/women" className="navbar">WOMEN</Link>
         <Link to="/Shoes" className="navbar">SHOES</Link>
-        <Link to="/Skincare" className="navbar">Skincare</Link>
         <Link to="/Beauty" className="navbar">Beauty</Link>
+        <Link to="/Skincare" className="navbar">MAKEUP</Link>
  
  
         <div className="search-box">
           <CiSearch className="search-icon" />
           <input type="text" placeholder="Search for products, brands and more" className="input" />
         </div>
-        <CgProfile className="icons"/>
-        <IoLogIn className="icons"/>  
+
+        <Link to="/signup">
+        <CgProfile className="icons" />
+        </Link>
+
+        <Link to="/login">
+        <IoLogIn className="icons" />
+        </Link>
+        
         <FaCartArrowDown className="icons"/>  
       </div>
     </>

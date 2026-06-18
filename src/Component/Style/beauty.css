@@ -34,3 +34,6 @@
 .card img:hover {
   transform: scale(1.15);
 }
+body{
+    padding-top: 90px;
+}
